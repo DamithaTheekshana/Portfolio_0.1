@@ -338,7 +338,33 @@ button{
     font-size: 14px;
 }
 
-.play-btn{
+.github-btn{
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 8px 15px;
+
+    background: #38bdf8;
+
+    color: black;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+
+    margin-top: 50px;
+}
+
+.github-btn:hover{
+    transform: scale(1.05);
+
+    box-shadow: 0 0 15px #38bdf8;
+}
+
+.try-btn{
     display: inline-block;
 
     margin-top: 20px;
@@ -356,13 +382,13 @@ button{
     transition: 0.3s;
 }
 
-.play-btn:hover{
+.try-btn:hover{
     transform: scale(1.05);
 
     box-shadow: 0 0 15px #38bdf8;
 }
 
-.play-btn1{
+.try-btn1{
     display: inline-block;
 
     margin-top: 70px;
@@ -380,7 +406,7 @@ button{
     transition: 0.3s;
 }
 
-.play-btn1:hover{
+.try-btn1:hover{
     transform: scale(1.05);
 
     box-shadow: 0 0 15px #38bdf8;
