@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Portfolio smoothly scrolled */
 html{
     scroll-behavior: smooth;
 }
@@ -526,6 +527,12 @@ button{
     transform: translateY(-5px);
 
     box-shadow: 0 0 20px #38bdf8;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
 }
 
 /* Responsive */
