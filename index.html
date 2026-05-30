@@ -12,7 +12,10 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <!-- Typing Effect -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
 
 </head>
 <body>
@@ -56,7 +59,7 @@
 
         <div class="hero-image">
 
-            <img src="img/Gemini_Generated_Image_t6irrnt6irrnt6ir.png" alt="profile">
+            <img src="img/Gemini_Generated_Image_t6irrnt6irrnt6ir.png" alt="profile" data-aos="fade-left">
 
         </div>
 
@@ -64,11 +67,11 @@
 
 <!-- About Section -->
 
-<section class="about" id="about">
+<section class="about" id="about" data-aos="zoom-out-left">
 
     <div class="about-image">
 
-        <img src="img/IMG-20251028-WA0002.jpg" alt="about-image">
+        <img src="img/IMG-20251028-WA0002.jpg" alt="about-image" data-aos="zoom-out-right" >
 
     </div>
 
@@ -107,7 +110,7 @@
 
 <!-- Skills Section -->
 
-<section class="skills" id="skills">
+<section class="skills" id="skills" data-aos="fade-up">
 
     <h2 class="section-title">My Skills</h2>
 
@@ -179,7 +182,7 @@
 
 <!-- Projects Section -->
 
-<section class="projects" id="projects">
+<section class="projects" id="projects" >
 
     <h2 class="section-title">My Projects</h2>
 
@@ -187,7 +190,7 @@
 
         <!-- Project 1 -->
 
-        <div class="project-card">
+        <div class="project-card" data-aos="flip-right">
 
             <img src="img/Car_Rental_System.jpg" alt="">
 
@@ -213,7 +216,7 @@
 
         <!-- Project 2 -->
 
-        <div class="project-card">
+        <div class="project-card" data-aos="flip-right">
 
             <img src="img/bbs.png" alt="">
 
@@ -238,7 +241,7 @@
 
         <!-- Project 3 -->
 
-        <div class="project-card">
+        <div class="project-card" data-aos="flip-right">
 
             <img src="img/Puzzle_Game.png" alt="">
 
@@ -264,7 +267,7 @@
 
         <!-- Project 4 -->
 
-        <div class="project-card">
+        <div class="project-card" data-aos="flip-right">
 
             <img src="img/Country_Search.png" alt="">
 
@@ -299,7 +302,7 @@
 
         <!-- Left Side -->
 
-        <div class="contact-info">
+        <div class="contact-info" data-aos="fade-right">
 
             <h3>Let's Work Together 🚀</h3>
 
@@ -340,7 +343,7 @@
 
         <!-- Right Side -->
 
-        <div class="contact-form">
+        <div class="contact-form" data-aos="fade-left">
 
             <form action="https://api.web3forms.com/submit" method="POST">
 
@@ -394,15 +397,21 @@
 
     new Typed("#typing",{
     strings:[
-        "Aspiring Software Engineer",
-        "Java Developer",
-        "Frontend Developer"
+        "Aspiring Software Engineer...",
+        "Java Developer...",
+        "Frontend Developer..."
     ],
     typeSpeed:70,
     backSpeed:50,
     loop:true
 });
 
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+AOS.init();
 </script>
 </body>
 </html>
