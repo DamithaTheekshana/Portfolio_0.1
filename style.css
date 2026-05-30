@@ -558,3 +558,178 @@ button{
 
     gap: 8px;
 }
+
+/* Tablet */
+
+@media (max-width: 992px){
+
+    .hero,
+    .about,
+    .contact-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero{
+        padding-top: 150px;
+    }
+
+    .hero-image img{
+        width: 350px;
+        height: 400px;
+        margin: 0;
+    }
+
+    .about-image img{
+        width: 300px;
+        height: 400px;
+    }
+
+    .social-links{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .logo{
+        font-size: 22px;
+    }
+
+    .logo img{
+        width: 35px;
+        height: 35px;
+    }
+
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a{
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+        padding: 160px 20px 60px;
+    }
+
+    .hero-text h1{
+        font-size: 42px;
+    }
+
+    .hero-text h2{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .hero-text h3{
+        font-size: 18px;
+    }
+
+    .hero-text p{
+        font-size: 14px;
+    }
+
+    .hero-image img{
+        width: 230px;
+        height: 280px;
+        margin: 0 0 20px 0;
+    }
+
+    .section-title{
+        font-size: 35px;
+    }
+
+    .about-text h2{
+        font-size: 35px;
+    }
+
+    .about-text h3{
+        font-size: 22px;
+    }
+
+    .about-text p{
+        font-size: 14px;
+    }
+
+    .skills-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .projects-container{
+        grid-template-columns: 1fr;
+    }
+
+    .project-content{
+        padding: 25px;
+    }
+
+    .project-content h3{
+        font-size: 24px;
+    }
+
+    .contact-info h3{
+        font-size: 28px;
+    }
+
+    .social-links{
+        flex-wrap: wrap;
+    }
+}
+
+/* Small Phones */
+
+@media (max-width: 480px){
+
+    .hero-text h1{
+        font-size: 34px;
+    }
+
+    .hero-text h2{
+        font-size: 17px;
+    }
+
+    .hero-image img{
+        width: 200px;
+        height: 240px;
+    }
+
+    .skills-container{
+        grid-template-columns: 1fr;
+    }
+
+    .project-card img{
+        height: 180px;
+    }
+
+    .section-title{
+        font-size: 30px;
+    }
+
+    .about-text h2{
+        font-size: 30px;
+    }
+
+    .about-image img{
+        width: 250px;
+        height: 320px;
+    }
+
+    .social-links a{
+        width: 100%;
+        justify-content: center;
+    }
+}
