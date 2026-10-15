@@ -22,7 +22,7 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 10%;
+    padding: 10px 10%;
 
     background: rgba(0,0,0,0.7);
 
@@ -114,7 +114,7 @@ button{
     border-radius: 150%;
 
     border: 5px solid #38bdf8;
-    margin-right: 80px;
+    margin-right: 85px;
 }
 
 .hero-image img:hover{
